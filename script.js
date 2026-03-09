@@ -74,7 +74,7 @@ modal.addEventListener("click", (e) => {
 // 6. Lluvia de Corazones
 //
 
-const heartStyles = ["💗", "💓", "💖"];
+const heartStyles = ["🥺", "😩", "❤️‍🩹"];
 
 function createHeart() {
   const heart = document.createElement("div");
@@ -102,4 +102,5 @@ function createHeart() {
 }
 
 // Crear un corazón cada 300ms
+
 setInterval(createHeart, 150);
